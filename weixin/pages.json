@@ -1,0 +1,386 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		//     "path" : "pages/Authorization/Authorization",
+		//     "style" :                                                                                    
+		//     {
+		//         "navigationBarTitleText": "",
+		//         "enablePullDownRefresh": false
+		//     }
+		    
+		// },
+		{
+			"path": "pages/Stuhome/Stuhome",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/Stumain/Stumain",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminhome/adminhome",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/adminZY/adminZY",
+			"style": {
+				"navigationBarTitleText": "作业/测试",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminmain/adminmain",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminCYxx/adminCYxx",
+			"style": {
+				"navigationBarTitleText": "成员信息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/Classitem/Classitem",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+				// "navigationStyle": "custom",			// 隐藏系统导航栏
+				// "navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		{
+			"path": "pages/Noticeitem/Noticeitem",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Datumitem/Datumitem",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/Testitem/Testitem",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminRelease/adminRelease",
+			"style": {
+				"navigationBarTitleText": "发布",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminAddJob/adminAddJob",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminAddNotice/adminAddNotice",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminAddzl/adminAddzl",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminClass/adminClass",
+			"style": {
+				"navigationBarTitleText": "班级一",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminClasscy/adminClasscy",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminCpm/adminCpm",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminCpxq/adminCpxq",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminAddClass/adminAddClass",
+			"style": {
+				"navigationBarTitleText": "添加班级界面",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/adminKeC/adminKeC",
+			"style": {
+				"navigationBarTitleText": "课程一",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminPhxq/adminPhxq",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminReadxq/adminReadxq",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/adminReleaseJob/adminReleaseJob",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminReleaseNotice/adminReleaseNotice",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminReleasezl/adminReleasezl",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminTeaMy/adminTeaMy",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminZL/adminZL",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/adminZLxq/adminZLxq",
+			"style": {
+				"navigationBarTitleText": "资料",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/Binding/Binding",
+			"style": {
+				"navigationBarTitleText": "绑定",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/About/About",
+			"style": {
+				"navigationBarTitleText": "关于",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Service/Service",
+			"style": {
+				"navigationBarTitleText": "客服",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Problem/Problem",
+			"style": {
+				"navigationBarTitleText": "常见问题",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Problemitem/Problemitem",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/adminAddCourse/adminAddCourse",
+			"style": {
+				"navigationBarTitleText": "添加课程界面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/adminShownNotice/adminShownNotice",
+			"style": {
+				"navigationBarTitleText": "显示通知内容",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/adminChangeProportion/adminChangeProportion",
+			"style": {
+				"navigationBarTitleText": "学生成绩管理比例计算",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Develop/Develop",
+			"style": {
+				"navigationBarTitleText": "开发人员",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/Testresult/Testresult",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Testdetails/Testdetails",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/adminZYxq/adminZYxq",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},{
+			"path": "pages/adminJobShowAndEdit/adminJobShowAndEdit",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/adminNoticeShowAndEdit/adminNoticeShowAndEdit",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+      
+          ,{
+            "path" : "pages/adminEditCourseMessage/adminEditCourseMessage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改课程信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "学生管理系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+
+	"tabBar": { //配置tabBar，
+		"list": [{
+				"pagePath": "pages/Stumain/Stumain",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/homelight.png",
+				"text": "主页"
+				//count: 2,
+				// "isDot": false,
+				// "customIcon": false
+			},
+
+			{
+				"pagePath": "pages/Stuhome/Stuhome",
+				"iconPath": "static/mine.png",
+				"selectedIconPath": "static/minelight.png",
+				"text": "我的"
+				//count: 23,
+				// "isDot": false,
+				// "customIcon": false
+			},
+			{
+				"pagePath": "pages/adminmain/adminmain",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/homelight.png",
+				"text": "主页",
+				//count: 23,
+				"isDot": false,
+				"customIcon": false
+			},
+			{
+				"pagePath": "pages/adminRelease/adminRelease",
+				// "iconPath": "static/mine.png",
+				// "selectedIconPath": "static/minelight.png",
+				"text": "发布",
+				//count: 23,
+				"isDot": false,
+				"customIcon": false
+			},
+			{
+				"pagePath": "pages/adminhome/adminhome",
+				"iconPath": "static/mine.png",
+				"selectedIconPath": "static/minelight.png",
+				"text": "我的",
+				//count: 23,
+				"isDot": false,
+				"customIcon": false
+			}
+		]
+	}
+}
